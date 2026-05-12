@@ -21,6 +21,10 @@ def square(a):
     """Return the square of a number"""
     return a ** 2
 
+def cube(a):
+    """Return the square of a number"""
+    return a * a * a
+
 if __name__ == "__main__":
     print("Calculator loaded!")
     print(f"5 + 3 = {add(5, 3)}")
